@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f1fae7">
+
+    <ImageView
+        android:layout_width="match_parent"
+        app:srcCompat="@drawable/make_dream"
+        android:id="@+id/imageView"
+        android:layout_height="125dp"
+        android:layout_margin="10dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNama"
+        android:layout_margin="17dp"
+        android:hint="Masukkan Nama"
+        android:gravity="center_vertical|center" />
+
+    <Button
+        android:text="Submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnSubmit"
+        android:layout_margin="35dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHasil"
+        android:layout_margin="20dp"
+        android:gravity="center" />
+</LinearLayout>

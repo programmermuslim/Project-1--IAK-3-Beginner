@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_halaman_tiga"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="rizki.com.projectsatu.HalamanTiga"
+    android:orientation="vertical"
+    android:background="#e4f7f7">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        app:srcCompat="@drawable/make_dream"
+        android:id="@+id/imageView2" />
+
+    <TextView
+        android:text="Hitung Luas Persegi Panjang"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:gravity="center"
+        android:layout_margin="10dp"
+        android:textStyle="normal|bold"
+        android:textSize="20sp"
+        android:textColor="@color/colorPrimaryDark"
+        android:background="@android:color/holo_blue_bright"
+        android:padding="5dp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etPanjang"
+        android:hint="Masukkan Panjang"
+        android:gravity="center_vertical|center" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:ems="10"
+        android:id="@+id/etLebar"
+        android:hint="Masukkan Lebar"
+        android:gravity="center_vertical|center" />
+
+    <Button
+        android:text="Hitung"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnHItung"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:text="Hasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHasil"
+        android:gravity="center"
+        android:layout_margin="20dp" />
+</LinearLayout>
